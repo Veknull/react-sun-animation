@@ -101,7 +101,7 @@ const Sun = () => {
   }, []);
 
   return (
-    <article className="sky" style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, backgroundColor: '#87CEEB' }}>
+    <article className="sky" style={{ backgroundColor: '#87CEEB' }}>
       <canvas ref={canvasRef} width={1100} height={600}></canvas>
     </article>
   );
