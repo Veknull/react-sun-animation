@@ -1,10 +1,10 @@
 import './App.css';
-import Sun from './components/Sun';
+import ReactSunAnimation from './components/ReactSunAnimation';
 
 function App() {
   return (
     <div className="App">
-      <Sun />
+      <ReactSunAnimation />
     </div>
   );
 }
